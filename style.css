@@ -44,10 +44,10 @@ a { text-decoration: none; color: inherit; }
   display: flex; align-items: center;
   padding: 120px 40px 60px;
   color: #fff;
-  /* Nếu có ảnh images/hero.jpg thì tự hiện, không có thì dùng màu xanh */
+  /* Nếu có ảnh hero.png thì tự hiện, không có thì dùng màu xanh */
   background:
     linear-gradient(rgba(20, 35, 25, .55), rgba(20, 35, 25, .55)),
-    url("images/hero.jpg") center / cover no-repeat,
+    url("hero.png") center / cover no-repeat,
     linear-gradient(135deg, #1f3a2d, #4a6b52);
 }
 .hero-content { max-width: 640px; margin-left: 6vw; }
@@ -74,7 +74,7 @@ a { text-decoration: none; color: inherit; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .img-box {
   min-height: 420px; border-radius: 4px;
-  background: url("images/gioi-thieu.jpg") center / cover no-repeat, linear-gradient(160deg, #6f8f72, #2f4a3a);
+  background: url("gioi-thieu.png") center / cover no-repeat, linear-gradient(160deg, #6f8f72, #2f4a3a);
 }
 
 /* ---------- SẢN PHẨM ---------- */
@@ -82,9 +82,9 @@ a { text-decoration: none; color: inherit; }
 .card { background: #fff; padding-bottom: 28px; text-align: center; box-shadow: 0 6px 24px rgba(0,0,0,.06); transition: transform .3s; }
 .card:hover { transform: translateY(-6px); }
 .card-img { height: 260px; background-size: cover; background-position: center; margin-bottom: 22px; }
-.card-img.p1 { background-image: url("images/tra-xanh.jpg"), linear-gradient(160deg, #8fae6b, #4d6b3a); }
-.card-img.p2 { background-image: url("images/tra-trang.jpg"), linear-gradient(160deg, #e6e0cc, #b7b08e); }
-.card-img.p3 { background-image: url("images/tra-do.jpg"), linear-gradient(160deg, #b5653a, #6e2f1a); }
+.card-img.p1 { background-image: url("tra-xanh-shan-tuyet.png"), linear-gradient(160deg, #8fae6b, #4d6b3a); }
+.card-img.p2 { background-image: url("bach-tra-shan-tuyet.png"), linear-gradient(160deg, #e6e0cc, #b7b08e); }
+.card-img.p3 { background-image: url("tra-shan-tuyet-tui-loc.png"), linear-gradient(160deg, #b5653a, #6e2f1a); }
 .card h3 { font-size: 1.3rem; margin-bottom: 10px; color: var(--green-dark); }
 .card p { padding: 0 24px; font-size: .95rem; }
 .price { display: inline-block; margin-top: 8px; color: #8a6d2f; font-weight: 500; }
